@@ -1,0 +1,185 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 00000016 54AA:7F5B
+D:.
+│  DirectXTK_Desktop_2017_Win10.vcxproj
+│  DirectXTK_Desktop_2017_Win10.vcxproj.filters
+│  DirectXTK_Desktop_2017_Win10.vcxproj.user
+│  DXTK.props
+│  tree.txt
+│  
+├─Audio
+│      AudioEngine.cpp
+│      DirectXTKAudio_Desktop_2015_DXSDK.vcxproj
+│      DirectXTKAudio_Desktop_2015_DXSDK.vcxproj.filters
+│      DirectXTKAudio_Desktop_2015_Win8.vcxproj
+│      DirectXTKAudio_Desktop_2015_Win8.vcxproj.filters
+│      DirectXTKAudio_Desktop_2017_DXSDK.vcxproj
+│      DirectXTKAudio_Desktop_2017_DXSDK.vcxproj.filters
+│      DirectXTKAudio_Desktop_2017_Win8.vcxproj
+│      DirectXTKAudio_Desktop_2017_Win8.vcxproj.filters
+│      DynamicSoundEffectInstance.cpp
+│      SoundCommon.cpp
+│      SoundCommon.h
+│      SoundEffect.cpp
+│      SoundEffectInstance.cpp
+│      WaveBank.cpp
+│      WaveBankReader.cpp
+│      WaveBankReader.h
+│      WAVFileReader.cpp
+│      WAVFileReader.h
+│      
+├─Bin
+│  └─Desktop_2017_Win10
+│      └─x64
+│          └─Debug
+│              │  AudioEngine.obj
+│              │  BasicPostProcess.obj
+│              │  BinaryReader.obj
+│              │  CommonStates.obj
+│              │  DDSTextureLoader.obj
+│              │  DebugEffect.obj
+│              │  DGSLEffectFactory.obj
+│              │  DirectXTK.idb
+│              │  DirectXTK.pch
+│              │  DirectXTK.pdb
+│              │  DirectXTK_Desktop_2017_Win10.log
+│              │  DualPostProcess.obj
+│              │  DynamicSoundEffectInstance.obj
+│              │  EffectCommon.obj
+│              │  EffectFactory.obj
+│              │  GamePad.obj
+│              │  GeometricPrimitive.obj
+│              │  GraphicsMemory.obj
+│              │  Keyboard.obj
+│              │  Model.obj
+│              │  ModelLoadCMO.obj
+│              │  ModelLoadSDKMESH.obj
+│              │  ModelLoadVBO.obj
+│              │  Mouse.obj
+│              │  NormalMapEffect.obj
+│              │  PBREffect.obj
+│              │  pch.obj
+│              │  PrimitiveBatch.obj
+│              │  ScreenGrab.obj
+│              │  SimpleMath.obj
+│              │  SoundCommon.obj
+│              │  SoundEffect.obj
+│              │  SoundEffectInstance.obj
+│              │  SpriteFont.obj
+│              │  ToneMapPostProcess.obj
+│              │  VertexTypes.obj
+│              │  WaveBank.obj
+│              │  WaveBankReader.obj
+│              │  WAVFileReader.obj
+│              │  WICTextureLoader.obj
+│              │  
+│              └─DirectXT.E0B52AE7.tlog
+│                      CL.command.1.tlog
+│                      CL.read.1.tlog
+│                      CL.write.1.tlog
+│                      DirectXTK_Desktop_2017_Win10.lastbuildstate
+│                      unsuccessfulbuild
+│                      
+├─Inc
+│      Audio.h
+│      CommonStates.h
+│      DDSTextureLoader.h
+│      DirectXHelpers.h
+│      Effects.h
+│      GamePad.h
+│      GeometricPrimitive.h
+│      GraphicsMemory.h
+│      Keyboard.h
+│      Model.h
+│      Mouse.h
+│      PostProcess.h
+│      PrimitiveBatch.h
+│      ScreenGrab.h
+│      SimpleMath.h
+│      SimpleMath.inl
+│      SpriteBatch.h
+│      SpriteFont.h
+│      VertexTypes.h
+│      WICTextureLoader.h
+│      XboxDDSTextureLoader.h
+│      
+├─Lib
+│  └─x64
+│      └─Debug
+└─Src
+    │  AlignedNew.h
+    │  AlphaTestEffect.cpp
+    │  BasicEffect.cpp
+    │  BasicPostProcess.cpp
+    │  Bezier.h
+    │  BinaryReader.cpp
+    │  BinaryReader.h
+    │  CommonStates.cpp
+    │  ConstantBuffer.h
+    │  dds.h
+    │  DDSTextureLoader.cpp
+    │  DebugEffect.cpp
+    │  DemandCreate.h
+    │  DGSLEffect.cpp
+    │  DGSLEffectFactory.cpp
+    │  DualPostProcess.cpp
+    │  DualTextureEffect.cpp
+    │  EffectCommon.cpp
+    │  EffectCommon.h
+    │  EffectFactory.cpp
+    │  EnvironmentMapEffect.cpp
+    │  GamePad.cpp
+    │  GeometricPrimitive.cpp
+    │  Geometry.cpp
+    │  Geometry.h
+    │  GraphicsMemory.cpp
+    │  Keyboard.cpp
+    │  LoaderHelpers.h
+    │  Model.cpp
+    │  ModelLoadCMO.cpp
+    │  ModelLoadSDKMESH.cpp
+    │  ModelLoadVBO.cpp
+    │  Mouse.cpp
+    │  NormalMapEffect.cpp
+    │  PBREffect.cpp
+    │  pch.cpp
+    │  pch.h
+    │  PlatformHelpers.h
+    │  PrimitiveBatch.cpp
+    │  ScreenGrab.cpp
+    │  SDKMesh.h
+    │  SharedResourcePool.h
+    │  SimpleMath.cpp
+    │  SkinnedEffect.cpp
+    │  SpriteBatch.cpp
+    │  SpriteFont.cpp
+    │  ToneMapPostProcess.cpp
+    │  vbo.h
+    │  VertexTypes.cpp
+    │  WICTextureLoader.cpp
+    │  XboxDDSTextureLoader.cpp
+    │  
+    └─Shaders
+            AlphaTestEffect.fx
+            BasicEffect.fx
+            Common.fxh
+            CompileShaders.cmd
+            DebugEffect.fx
+            DGSLEffect.fx
+            DGSLLambert.hlsl
+            DGSLPhong.hlsl
+            DGSLUnlit.hlsl
+            DualTextureEffect.fx
+            EnvironmentMapEffect.fx
+            Lighting.fxh
+            NormalMapEffect.fx
+            PBRCommon.fxh
+            PBREffect.fx
+            PixelPacking_Velocity.hlsli
+            PostProcess.fx
+            SkinnedEffect.fx
+            SpriteEffect.fx
+            Structures.fxh
+            ToneMap.fx
+            Utilities.fxh
+            
